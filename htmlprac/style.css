@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 70px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-left: 70px;
+}
+
+nav {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    height: 50px;
+}
+
+nav ul {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    list-style: none;
+    gap: 30px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 15px;
+}
+
+a {
+    transition: 0.3s ease, font-size 0.3s ease;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.2);
+}

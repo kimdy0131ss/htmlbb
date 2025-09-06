@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>pract</title>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: #FFFFFF; margin-top: 0px; margin-left: 0px; margin-right: 0px;">
+        <nav id="navbar"></nav>>
+
+        <script>
+            fetch('navbar.html')
+              .then(res => res.text())
+              .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+              });
+        </script>
+
+        <h1>여기는 네이버<img src="naver.jpg" width="65px" style="margin-left: 20px; border-radius: 20px;"></h1>
+
+        <p></p>
+    </body>
+</html>

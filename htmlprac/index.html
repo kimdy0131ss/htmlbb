@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>pract</title>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: #FFFFFF; margin-top: 0px; margin-left: 0px; margin-right: 0px;">
+        <nav id="navbar"></nav>>
+
+        <script>
+            fetch('navbar.html')
+              .then(res => res.text())
+              .then(data => {
+                document.getElementById('navbar').innerHTML = data;
+              });
+        </script>
+
+        <h1>여기는 홈</h1>
+        <p>
+            이것은 간단한 테스트를 위한 문구<br>
+            여전히 간단한 테스트를 위한 문구
+        </p>
+    </body>
+</html>
